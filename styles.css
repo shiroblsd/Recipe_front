@@ -180,3 +180,28 @@ hr {
     background-color: hsl(30, 54%, 90%);
     transition: background-color 0.4s ease;
 }
+
+@media (max-width: 768px) {
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .picture {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .heading, h1, .main_text {
+        margin-left: 1rem;
+    }
+}

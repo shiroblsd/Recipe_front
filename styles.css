@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.04rem;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 120rem;
+    background-color: hsl(30, 54%, 90%);
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.main {
+    background-color: white;
+    width: 60rem;
+    height: 120rem;
+    border-radius: 3rem;
+    padding-right: 2rem;
+}
+
+.picture {
+    display: flex;
+    width: 60rem;
+    height: 30rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+}
+
+.heading {
+    margin-left: 2rem;
+    color: hsl(14, 45%, 36%);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Young Serif', serif;
+    font-size: 1.7rem;
+}
+
+h1 {
+    margin-left: 2rem;
+    font-family: 'Young Serif', serif;
+    font-size: 3rem;
+}
+
+.main_text {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.preparation {
+    display: flex;
+    background-color: hsl(330, 100%, 98%);
+    width: 56rem;
+    height: 13rem;
+    flex-direction: column;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+}
+
+.preparation_text {
+    line-height: 2.5rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    color: hsl(332, 51%, 32%);
+}
+
+.list {
+    line-height: 2.5rem;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+}
+
+.list_num {
+    line-height: 1.5rem;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+}
+
+li {
+    padding-left: 1rem;
+}
+
+.list_num li {
+    margin-bottom: 1rem; /* Увеличенный отступ между пунктами */
+    line-height: 1.6rem; /* Увеличенный межстрочный интервал */
+}
+
+
+.text {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.nutritional-values p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgb(180, 180, 180);
+    margin: 0;
+}
+.nutrition-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.04rem;
+}
+
+.nutrition-description {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 0%);
+    margin-bottom: 1.1rem;
+}
+
+.nutrition-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.nutrition-label {
+    font-size: 1.2rem;
+    color: hsl(24, 5%, 18%);
+}
+
+.nutrition-value {
+    font-size: 1.2rem;
+    margin-right: 16rem;
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+
+.color-container-ingridients {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 56rem;
+    height: 14rem;
+    flex-direction: column;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+}
+
+.color-container-ingridients:hover {
+    background-color: hsl(30, 54%, 90%);
+    transition: background-color 0.4s ease;
+}
+
+.color-container-instruction {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 56rem;
+    height: 23rem;
+    flex-direction: column;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    padding-top: 1.2rem;
+}
+
+.color-container-instruction:hover {
+    background-color: hsl(30, 54%, 90%);
+    transition: background-color 0.4s ease;
+}
